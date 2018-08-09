@@ -95,7 +95,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# alias for linux
 alias open="xdg-open"
+
+# normal alias
+alias cl="clear"
+alias ll="ls -alh"
 
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go
